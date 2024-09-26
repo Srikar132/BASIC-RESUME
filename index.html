@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: gray;
+        }
+        .wrapper {
+            border: 2px solid black;
+            flex : 1 0 350px;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 20px;
+            gap: 10px;
+            font-size: 0.5em;
+        }
+        
+        .wrapper .header {
+            text-align: center;
+        }
+
+        hr {
+            height: 3px !important;
+            background: #000;
+        }
+
+        .address {
+            text-align: center;
+            color: gray;
+            font-size: 1.1rem;
+        }
+
+        .expertice-container {
+            display: flex;
+            padding: 2px;
+            flex-wrap: wrap;
+        }
+        .expertice-container > span {
+            flex : 1 0 33%;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        ul li {
+            font-size: 1.2rem;
+        }
+
+        ul li span {
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        @media (min-width : 700px)      {
+            .header {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (min-width : 1300px) {
+            body {
+                padding: 30px  300px;
+            }
+            .wrapper {
+                padding: 30px 60px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>SRIKAR CHINTHALA</h1>
+            <h3>FRONT-END DEVELOPER</h3>
+        </header>
+        <hr>
+        <address class="address">
+            456 Coding Lane, Tech City | srikar@example.com | www.srikarportfolio.com
+        </address>
+        <hr>
+        <p style="font-size: 1.6rem;margin-bottom: 20px;">
+            Passionate front-end developer with a strong foundation in building responsive and user-friendly web applications. Skilled in JavaScript, React, and Tailwind CSS. Eager to apply my coding skills to real-world projects and work in a team to solve problems creatively.
+        </p>
+        <h2 style="margin-left: 10px;text-transform: uppercase;">AREA OF EXPERTISE</h2>
+        <hr>
+        <div class="expertice-container">
+            <span>ReactJS</span>
+            <span>Responsive Design</span>
+            <span>Tailwind CSS</span>
+            <span>JavaScript</span>
+            <span>Git & GitHub</span>
+            <span>API Integration</span>
+        </div>
+
+        <section>
+            <h2 style="margin-left: 10px;text-transform: uppercase;">Key ACHIEVEMENTS</h2>
+            <hr>
+
+            <div style="margin-left: 20px;">
+                <ul>
+                    <li><span>Hackathon Winner:</span> Won 1st place in a college hackathon for building a weather application with real-time data using React and OpenWeather API.</li>
+                    <li><span>Personal Portfolio:</span> Developed a responsive portfolio showcasing my web development projects using React, Tailwind, and Netlify.</li>
+                </ul>   
+            </div>
+            
+        </section>
+
+
+        <section>
+            <h2 style="margin-left: 10px;text-transform: uppercase;">PROFESSIONAL EXPERIENCE</h2>
+            <hr>
+
+            <div style="margin-left: 20px;">
+                <h2>Freelance Front-End Developer</h2>
+                <ul>
+                    <li><span>Portfolio Website Development:</span> Built portfolio websites for multiple clients using HTML, CSS, and JavaScript, helping them showcase their work to a global audience.</li>
+                    <li><span>Responsive Web Design:</span> Created fully responsive web pages that adapt to different devices, providing an optimal viewing experience for users on mobile, tablet, and desktop devices.</li>
+                </ul>
+                <br>
+                <h2>Intern, Web Development - Tech Solutions</h2>
+                <ul>
+                    <li><span>Developed User Interfaces:</span> Collaborated with the design team to create dynamic and interactive UIs using ReactJS, improving user engagement by 25%.</li>
+                    <li><span>Code Optimization:</span> Optimized code for better performance, reducing load times by 20% across the web app.</li>
+                </ul>
+            </div>
+            
+        </section>
+
+
+
+        <section>
+            <h2 style="margin-left: 10px;text-transform: uppercase;">EDUCATION</h2>
+            <hr>
+            
+            <div style="margin-left: 20px;">
+                <h2>Bachelor of Technology in Computer Science</h2>
+                <span>SRKR Engineering College, Bhimavaram</span>
+                <ul>
+                    <li><span>Graduation Year:</span> Expected 2026</li>
+                    <li><span>Key Courses:</span> Data Structures, Web Technologies, Algorithms</li>
+                </ul>
+                <h2>Certification in Full-Stack Web Development</h2>
+                <span>BroCode Bootcamp</span>
+                <ul>
+                    <li><span>ReactJS Specialization:</span> Completed an advanced course in ReactJS, focusing on component-based architecture and state management.</li>
+                    <li><span>JavaScript Algorithms:</span> Learned and implemented various algorithms to solve coding challenges efficiently.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>ADDITIONAL INFORMATION</h2>
+            <hr>
+            <ul>
+                <li><span>Languages:</span> English (Fluent), Telugu (Native)</li>
+                <li><span>Tools:</span> VS Code, GitHub, Figma, Postman</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
